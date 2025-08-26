@@ -20,5 +20,6 @@ class GentelellaAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
+        'ereminmdev\yii2\gentelella\GentelellaCustomAsset',
     ];
 }
