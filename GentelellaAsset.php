@@ -8,9 +8,9 @@ class GentelellaAsset extends AssetBundle
 {
     public $sourcePath = '@npm/gentelella/build';
 
-    public $js = [
+    /*public $js = [
         YII_DEBUG ? 'js/custom.js' : 'js/custom.min.js',
-    ];
+    ];*/
 
     public $css = [
         YII_DEBUG ? 'css/custom.css' : 'css/custom.min.css',
