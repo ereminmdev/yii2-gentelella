@@ -12,6 +12,10 @@ class GentelellaCustomAsset extends AssetBundle
         'gentelella.js',
     ];
 
+    public $css = [
+        'gentelella.css',
+    ];
+
     public $depends = [
         'yii\web\JqueryAsset',
     ];

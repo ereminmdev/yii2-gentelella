@@ -1,0 +1,110 @@
+* {
+    transition: none;
+}
+
+body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif;
+    background: #f7f7f7;
+}
+
+.site_title {
+    white-space: nowrap;
+}
+
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.top_nav .nav.toggle {
+    position: relative;
+    z-index: 2;
+}
+
+.nav-md #sidebar-menu li.active > .child_menu {
+    display: block;
+}
+
+.nav-sm .nav.side-menu li a {
+    hyphens: auto;
+}
+
+.top_nav .navbar-right {
+    width: auto;
+}
+
+.navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-md .container.body .col-md-3.left_col {
+    min-height: 100dvh;
+    z-index: 4;
+}
+
+.nav-md ul.nav.child_menu li:before, .nav-md ul.nav.child_menu li:after {
+    display: none;
+}
+
+.nav li.current-page {
+    background-color: transparent;
+}
+
+.nav.side-menu > li.active > a {
+    padding-right: 10px;
+}
+
+.modal-body h1 {
+    font-size: 27px;
+}
+
+.form-inline .form-group .btn, .form-buttons.form-group .btn {
+    margin-bottom: 0;
+}
+
+.x_panel {
+    width: auto;
+    min-width: 100%;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+@media (max-width: 991px) {
+    .top_nav .nav > li {
+        display: inline-block;
+    }
+}
+
+@media print {
+    a[href]:after {
+        content: "";
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .top_nav, .nav_menu, .alert, .header, #sidebar, .no-print {
+        display: none;
+    }
+
+    .well {
+        padding: 0;
+        background: transparent;
+        border: none;
+    }
+
+    .x_panel {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}
