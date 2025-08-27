@@ -17,6 +17,31 @@ body {
     background: none;
 }
 
+.x_panel {
+    width: auto;
+    min-width: 100%;
+}
+
+.form-inline .form-group .btn, .form-buttons.form-group .btn {
+    margin-bottom: 0;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.modal-body h1 {
+    font-size: 27px;
+}
+
+.main_container {
+    position: relative;
+}
+
 .top_nav .nav.toggle {
     position: relative;
     z-index: 2;
@@ -40,7 +65,9 @@ body {
 }
 
 .nav-md .container.body .col-md-3.left_col {
+    inset: 0;
     min-height: 100dvh;
+    overflow-y: auto;
     z-index: 4;
 }
 
@@ -54,31 +81,6 @@ body {
 
 .nav.side-menu > li.active > a {
     padding-right: 10px;
-}
-
-.modal-body h1 {
-    font-size: 27px;
-}
-
-.form-inline .form-group .btn, .form-buttons.form-group .btn {
-    margin-bottom: 0;
-}
-
-.x_panel {
-    width: auto;
-    min-width: 100%;
-}
-
-.error-summary {
-    color: #a94442;
-    background: #fdf7f7;
-    border-left: 3px solid #eed3d7;
-    padding: 10px 20px;
-    margin: 0 0 15px 0;
-}
-
-.cms-crud-pager .pagination {
-    margin: .5em 0;
 }
 
 @media (max-width: 991px) {
